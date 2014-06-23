@@ -1,0 +1,37 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	background: gray;
+}
+
+ul { 
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+ul li a {
+	
+	display: block; 
+	float: left; 
+	padding: 5px; 
+	border: 1px solid black;
+	text-decoration: none;
+	color: black;
+}
+
+ul li a:hover {
+	text-decoration: none;
+	background: gray;
+	color: white;
+
+
+label {
+	list-style: none;
+	display: block;
+	font: 24px Arial, Verdana, Geneva, Helvetica, Sans-serif;
+	float: left;
+	width: 200px;
+	margin: 10px;
+	position: relative;
+}
